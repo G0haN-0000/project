@@ -1,0 +1,20 @@
+# System Rezerwacji Sprzętu Komputerowego
+
+Aplikacja webowa do zarządzania rezerwacjami sprzętu (laptopy, rzutniki, tablety) w szkole lub firmie. Projekt stworzony na potrzeby uczelni.
+
+## Technologie
+
+- Python 3 + Flask
+- PostgreSQL
+- Linux Ubuntu
+- msmtp (powiadomienia e-mail)
+- Cron (automatyczne backupy)
+
+##  Uruchomienie
+
+```bash
+git clone https://github.com/twoj-login/system-rezerwacji.git
+cd system-rezerwacji
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
